@@ -14,32 +14,32 @@ This Power BI project focuses on analyzing the sales performance and cost struct
    
    | Field | Data type | Type of column |
    | ----- | :---------: | :-----------: |
-   | OrderDate | Date | Dimension |
-   | OrderDate Key | Whole number | Dimension |
-   | ProductKey | Whole number | Dimension |
-   | CustomerKey | Whole number | Dimension |
-   | SalesTerritoryKey | Whole number | Dimension |
-   | SaleOrderNumber | Text | Dimension |
-   | SalesOrderLineNumber | Whole number | Dimension |
-   | OrderQuantity | Whole number | Dimension |
-   | UnitPrice | Decimal number | Dimension |
-   | ExtendedAmount | Decimal number | Dimension |
-   | UnitPriceDiscountPct | Whole number | Dimension |
-   | DiscountAmount | Whole number | Dimension |
-   | ProductStandardCost | Decimal number | Dimension |
-   | TotalProductCost | Decimal number | Dimension |
-   | SalesAmount | Decimal number | Dimension |
-   | TaxAmt | Decimal number | Dimension |
-   | Freight | Decimal number | Dimension |
-   | RegionMonthID | Text | Dimension |
-   | Total_Sales | Decimal number | Measure |
-   | Total_Cost | Decimal number | Measure |
-   | Total_Profit | Decimal number | Measure |
-   | Profit_Rank | Whole number | Measure |
-   | PreviousYearSales | Decimal number | Measure |
-   | Cost to Sales Ratio | Decimal number | Measure |
-   | % Growth_Sales | Decimal number | Measure |
-   | Territory Key | Whole number | Dimension |
+   | OrderDate | Date | `Dimension` |
+   | OrderDate Key | Whole number | `Dimension` |
+   | ProductKey | Whole number | `Dimension` |
+   | CustomerKey | Whole number | `Dimension` |
+   | SalesTerritoryKey | Whole number | `Dimension` |
+   | SaleOrderNumber | Text | `Dimension` |
+   | SalesOrderLineNumber | Whole number | `Dimension` |
+   | OrderQuantity | Whole number | `Dimension` |
+   | UnitPrice | Decimal number | `Dimension` |
+   | ExtendedAmount | Decimal number | `Dimension` |
+   | UnitPriceDiscountPct | Whole number | `Dimension` |
+   | DiscountAmount | Whole number | `Dimension` |
+   | ProductStandardCost | Decimal number | `Dimension` |
+   | TotalProductCost | Decimal number | `Dimension` |
+   | SalesAmount | Decimal number | `Dimension` |
+   | TaxAmt | Decimal number | `Dimension` |
+   | Freight | Decimal number | `Dimension` |
+   | RegionMonthID | Text | `Dimension` |
+   | Total_Sales | Decimal number | `Measure` |
+   | Total_Cost | Decimal number | `Measure` |
+   | Total_Profit | Decimal number | `Measure` |
+   | Profit_Rank | Whole number | `Measure` |
+   | PreviousYearSales | Decimal number | `Measure` |
+   | Cost to Sales Ratio | Decimal number | `Measure` |
+   | % Growth_Sales | Decimal number | `Measure` |
+   | Territory Key | Whole number | `Dimension` |
 ### 3. Data Model
 The data model for this project is built using the Adventure Works dataset, a well-structured sample database that simulates the operations of a global bicycle manufacturing company. The model follows a ***star-schema design***, separating transaction data into fact tables and descriptive attributes into dimension tables. This structure supports efficient querying, enables scalable analytics, and ensures clear relationships between sales, products, customers, calendar, and territory data. The goal of the data model is to provide a clean analytical foundation that supports ***accurate reporting***, ***DAX calculations***, and ***meaningful business insights***.
 
