@@ -2,14 +2,14 @@
 ***Download Power BI File***
 
 You can download the full Power BI dashboard (.pbix) here: 
-[![Download PBIX File](https://img.shields.io/badge/Download-.PBIX-orange?style=for-the-badge&logo=power-bi)]()
+[![Download PBIX File](https://img.shields.io/badge/Download-.PBIX-orange?style=for-the-badge&logo=power-bi)](https://github.com/nhijulytran/Business-Performance-Analysis_Power-BI/raw/refs/heads/main/Business%20Performance%20Analysis%20by%20Category%20and%20Color_Adventure%20Works.pbix)
 
 # I. Introduction
 ### 1. Project Overview
 This Power BI project focuses on analyzing the sales performance and cost structure of products based on two key dimensions: Color and Category. Using the Adventure Works dataset, the report provides an in-depth overview of how different product categories contribute to total revenue and how product colors influence customer purchasing behavior.
 ### 2. Dataset Information
  - The ***Adventure Works dataset*** is a sample business dataset provided by Microsoft, representing the operations of Adventure Works Cycles, a global bicycle manufacturing and sales company. The dataset includes detailed information on products, customers, sales transactions, territories, and calendar, organized for the years 2016 and 2019.
- - Data resource: [*AdventureWorks*]()
+ - Data resource: [*AdventureWorks*](https://docs.google.com/spreadsheets/d/1ugbRwkuouG5fW0Av-C4VkvOqncEjeoBY/edit?gid=494881559#gid=494881559)
  - Data dictionary:
    
    | Field | Data type | Type of column |
